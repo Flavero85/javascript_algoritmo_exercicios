@@ -8,11 +8,15 @@
 <body>
     <form>
         <p>
-            <label>Metros</label>
-            <input id="metros">
+            <label>Informe seu salário por hora: </label>
+            <input id="sal_hora">
         </p>
         <p>
-            <button type="button" onclick="converter()">Converter para cm</button>
+            <label>Informe a quantidade de horas trabalhadas: </label>
+            <input id="horas_trabalhadas">
+        </p>
+        <p>
+            <button type="button" onclick="calcularsalario()">Calcular salário</button>
         </p>
     </form>
     <h3 id="resultado"></h3>
